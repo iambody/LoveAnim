@@ -66,6 +66,9 @@ public class MainActivity extends ActionBarActivity implements IInfoView, View.O
 
 
             case R.id.input_confirm:
+                //sys
+                System.out.println("sss");
+
                 presenter.saveInfo(getInfo());
                 ///sss
                 break;
