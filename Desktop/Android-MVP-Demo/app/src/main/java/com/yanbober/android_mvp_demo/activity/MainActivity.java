@@ -71,6 +71,7 @@ public class MainActivity extends ActionBarActivity implements IInfoView, View.O
 
                 presenter.saveInfo(getInfo());
                 ///sss
+                //dd
                 break;
             case R.id.get_confirm:
                 presenter.getInfo();
