@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/delete"
+        android:title="删除"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@mipmap/add"
+        android:title="添加"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/menu1"
+        android:title="垂直ListView"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/menu2"
+        android:title="水平ListView"
+        android:orderInCategory="2"
+        />
+
+    <item
+        android:id="@+id/menu3"
+        android:title="水平GridView"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/menu4"
+        android:title="垂直GridView"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/menu5"
+        android:title="瀑布流布局"
+        android:orderInCategory="5"
+        />
+
+</menu>
